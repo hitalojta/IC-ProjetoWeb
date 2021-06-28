@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hítalo Araújo</title>
+    <link rel="stylesheet" href="main.css">
+    
+    <script>
+        function alertUser(msg) {
+            alert(msg);
+        }
+    </script>
+
+</head>
+<body onload="alertUser('Olá, bem-vindo(a) à minha página!')">
+
+    <main>
+    <div class="titulo">
+        <h1>Meu perfil</h1>
+    </div>
+    <div id="fotoperfil">
+        <img src="./Imagens/eu.jpg" alt="Imagem de perfil" id="foto">
+    </div>
+    <h2 class="meunome">Hítalo José Tavares de Araújo</h2>
+    <p class="descricao">Mestrando em Engenharia Civil pelo PPGEC - UFPE e Graduando em Ciência da Computação pelo CIn - UFPE</p>
+    <hr>
+    <div class="informacoes">
+        <table>
+            <thead>
+                <th colspan="3" id="infocontatos">Informações e Contatos</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lattes:</td>
+                    <td>
+                        <div class="tooltip">
+                            <a href="http://lattes.cnpq.br/1043361673297268" target="_blank" class="cliqueaqui">CLIQUE AQUI</a>
+                            <span class="tooltiptext">Clique para acessar o meu currículo na plataforma Lattes!</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>GitHub:</td>
+                    <td>
+                        <div class="tooltip">
+                            <a href="https://github.com/hitalojta" target="_blank" class="cliqueaqui">CLIQUE AQUI</a>
+                            <span class="tooltiptext">Clique para acessar o meu repositório no GitHub!</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <div class="tooltip">
+                            <a href="mailto:hitalo.araujo@ufpe.br" class="cliqueaqui">hitalo.araujo@ufpe.br</a>
+                            <span class="tooltiptext">Entre em contato! :)</span>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </main>
+
+</body>
+</html>

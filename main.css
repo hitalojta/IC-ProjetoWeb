@@ -1,0 +1,91 @@
+body {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    background: url(/Imagens/background.jpg) top;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 65%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+main {
+    background-color: #00000052;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.titulo {
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.meunome, .descricao {
+    text-align: center;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 5px;
+}
+
+#fotoperfil {
+    text-align: center;
+    margin: 15px;
+}
+
+.informacoes {
+    margin: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.informacoes table {
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+#foto {
+    border-radius: 25px;
+}
+
+.cliqueaqui {
+    color: rgb(198, 228, 68);
+}
+
+#infocontatos {
+    text-align: center;
+    color:rgb(237, 255, 158);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 0px dotted rgb(0, 0, 0);
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: rgb(223, 219, 18);
+    text-align: center;
+    border-radius: 12px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 155%;
+}
+  
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
