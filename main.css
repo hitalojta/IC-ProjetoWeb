@@ -28,9 +28,10 @@ main {
 
 .meunome, .descricao {
     text-align: center;
-    margin: 0;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.63);
     border-radius: 5px;
+    max-width: 600px;
 }
 
 #fotoperfil {
