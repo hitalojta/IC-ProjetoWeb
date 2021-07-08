@@ -2,7 +2,7 @@
 
 
 
-##### Página pessoal simples feita utilizando HTML, CSS e JavaScript.
+##### Página pessoal simples feita utilizando HTML e CSS.
 
 
 
